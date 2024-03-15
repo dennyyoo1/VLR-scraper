@@ -13,8 +13,6 @@ def checked(old, new):
             return True
     return False
 
-
-
 links = getMatches()
 for idx, link in enumerate(links):
     links[idx] = prefix + link
